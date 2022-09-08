@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: rgb(202, 184, 250);
+
+}
+
+#doge{
+    float: right;
+}
+
+canvas{
+    border: 2px solid limegreen;
+
+    border-radius: 20%;
+
+    animation-name: hugs;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hugs{
+
+
+    from{ box-shadow: 2px 2px 40px rgb(255, 166, 0); }
+    to{ box-shadow:  2px 2px 40px rgb(0, 255, 76);}
+}
